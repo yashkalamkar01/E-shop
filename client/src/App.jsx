@@ -38,6 +38,8 @@ import ProductList from "./admin/pages/ProductList";
 import EditProduct from "./admin/pages/EditProduct";
 import Orders from "./admin/pages/Orders";
 
+import AIChatbot from "./components/AIChatbot";
+
 
 // 🏠 HOME (NO separate file)
 function Home() {
@@ -52,6 +54,7 @@ function Home() {
       <Deals />
       <Trending />
       <Brands />
+      <AIChatbot />
      
     </>
   );
